@@ -3,4 +3,9 @@ mbrola-archlinux
 
 mbrola package for archlinux
 
-sudo pacman -U https://github.com/saez0pub/mbrola-archlinux-rasberrypi/blob/master/mbrola-3.02b-4-armv6h.pkg.tar.xz
+==Installation==
+cd /tmp
+git clone git@github.com:saez0pub/mbrola-archlinux-rasberrypi.git
+cd mbrola-archlinux-rasberrypi
+makepkg -s
+sudo pacman -U ./mbrola-3.02b-4-armv6h.pkg.tar.xz 
