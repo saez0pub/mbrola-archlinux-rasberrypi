@@ -3,7 +3,7 @@ mbrola-archlinux
 
 mbrola package for archlinux
 
-=====Installation
+Installation
 =================
 ```
 cd /tmp
